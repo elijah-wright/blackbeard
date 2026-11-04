@@ -85,6 +85,9 @@ public sealed class AlwaysSpawnRareChest : ChestState { }
 [NetFieldExportGroup("/Game/Athena/Items/ForagedItems/BuriedChest/B_Athena_BuriedChest_Chest.B_Athena_BuriedChest_Chest_C", ParseMode.Full)]
 public sealed class BuriedChest : ChestState { }
 
+[NetFieldExportGroup("/RelicChest/Gameplay/B_TieredChest_Relics.B_TieredChest_Relics_C", ParseMode.Full)]
+public sealed class RelicChest : ChestState { }
+
 [NetFieldExportGroup("/DelilahTreasureHuntGameplay/Gameplay/Actors/BGA_DelilahTreasureHuntAnimatedChest.BGA_DelilahTreasureHuntAnimatedChest_C", ParseMode.Full)]
 public sealed class TreasureChest : INetFieldExportGroup
 {
